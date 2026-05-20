@@ -1,21 +1,16 @@
 set -x 
 
-export CUDA_HOME=/usr/local/cuda-12.2
-export PATH=$CUDA_HOME/bin:$PATH
-export CUDA_PATH=$CUDA_HOME/bin:$CUDA_PATH
-export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
-
 export MAGNUM_LOG=quiet HABITAT_SIM_LOG=quiet
 export HYDRA_FULL_ERROR=1
 
-MASTER_IP=localhost
-MASTER_PORT=23360
-NODE_NUM=4
+MASTER_IP="YOUR_MASTER_IP"
+MASTER_PORT="YOUR_MASTER_PORT"
+NODE_NUM="YOUR_NODE_NUM"
 
-OUTPUT="/ssd1/jhy_/results/gavln_official/"
-CHECKPOINT="/ssd1/jhy_/checkpoints/gavln_official/"
-VISION_TOWER_PATH="/ssd1/jhy/model/siglip-so400m-patch14-384/"
-VGGT_PATH="/ssd1/jhy/model/VGGT-1B/"
+OUTPUT="./results/gavln_official/"
+CHECKPOINT="./checkpoints/gavln_official/"
+VISION_TOWER_PATH="./model/siglip-so400m-patch14-384/"
+VGGT_PATH="./model/VGGT-1B/"
 echo "CHECKPOINT: ${CHECKPOINT}"
 
 torchrun --nnodes=1 \
