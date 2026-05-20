@@ -54,5 +54,5 @@ habitat:
   dataset:
     type: R2RVLN-v1
     split: val_seen
-    scenes_dir: /data4/jhy/vln_data/scene_datasets/
-    data_path: /data4/jhy/vln_data/datasets/r2r/{split}/{split}.json.gz
+    scenes_dir: ./vln_data/scene_datasets/
+    data_path: ./vln_data/datasets/r2r/{split}/{split}.json.gz
