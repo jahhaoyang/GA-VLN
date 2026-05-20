@@ -10,6 +10,7 @@
     Yinghao Xu†</a>&emsp;
     Shuqiang Jiang†</a>&emsp;
     <br>
+    ICT,CAS&emsp;UCAS&emsp;Robbyant&emsp;NUS&emsp;HKUST&emsp;
   </p>
 </p>
 
