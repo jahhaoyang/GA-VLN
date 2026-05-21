@@ -21,7 +21,7 @@
 </div>
 
 <div style="text-align: center;">
-    <img src="assets/gavln_framework.PNG" width=100% >
+    <img src="assets/gavln_framework.PNG" width=90% >
 </div>
 
 -----
@@ -35,11 +35,12 @@
 
 ## ⚙️ Requirements
 
-**1. Create conda environment**
+**1. Create environment**
 
 ```bash
 conda create -n gavln python=3.9
 conda activate gavln
+pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
 ```
 
 **2. Install Habitat**
