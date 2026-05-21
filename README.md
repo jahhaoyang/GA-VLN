@@ -56,7 +56,7 @@ pip install -e habitat-baselines # install habitat_baselines
 
 ## 📦 Data & Checkpoints Preparation
 
-Download the VLN-CE(https://github.com/jacobkrantz/VLN-CE) data and SigLIP(https://huggingface.co/google/siglip2-so400m-patch14-384) & VGGT(https://huggingface.co/facebook/VGGT-1B) backbones. Your directory tree should look like this:
+Download the [VLN-CE](https://github.com/jacobkrantz/VLN-CE) data and [SigLIP](https://huggingface.co/google/siglip2-so400m-patch14-384) & [VGGT](https://huggingface.co/facebook/VGGT-1B) backbones. Your directory tree should look like this:
 ```text
 GA-VLN/
 ├── vln_data/
