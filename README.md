@@ -77,4 +77,12 @@ GA-VLN/
 bash scripts/gavln_eval.sh
 ```
 
+-----
+
+## ✨ Acknowledgments
+
+Our code is based on [StreamVLN](https://github.com/InternRobotics/StreamVLN/) and [VGGT](https://github.com/facebookresearch/vggt). Thanks for their great works!
+
+-----
+
 
