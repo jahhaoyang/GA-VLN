@@ -51,4 +51,20 @@ cd habitat-lab
 pip install -e habitat-lab  # install habitat_lab
 pip install -e habitat-baselines # install habitat_baselines
 ```
-    
+
+-----
+
+## 📦 Data & Checkpoints Preparation
+
+Download the VLN-CE data and LLava-Video & VGGT backbones. Your directory tree should look like this:
+```text
+GA-VLN/
+├── vln_data/
+│   └── scene_datasets/
+│   └── datasets/
+├── model/
+│   ├── siglip-so400m-patch14-384/
+│   └── VGGT-1B/
+├── checkpoints/
+│   └── gavln_official/
+
