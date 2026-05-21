@@ -23,6 +23,7 @@
 <center>
   <img src="assets/gavln_framework.PNG" width="90%">
 </center>
+
 -----
 
 ## 🌟 Official implementation of **GA-VLN**, a geometry-aware BEV representation framework designed for Vision-Language Navigation (VLN).
