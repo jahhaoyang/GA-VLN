@@ -48,8 +48,8 @@ pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorc
 conda install habitat-sim==0.2.4 withbullet headless -c conda-forge -c aihabitat
 git clone --branch v0.2.4 https://github.com/facebookresearch/habitat-lab.git
 cd habitat-lab
-pip install -e habitat-lab  # install habitat_lab
-pip install -e habitat-baselines # install habitat_baselines
+pip install -e habitat-lab
+pip install -e habitat-baselines
 ```
 
 -----
@@ -67,4 +67,13 @@ GA-VLN/
 │   └── VGGT-1B/
 ├── checkpoints/
 │   └── gavln_official/
+
+-----
+
+## 📊 Evaluation
+
+```bash
+bash scripts/gavln_eval.sh
+```
+
 
