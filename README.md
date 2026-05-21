@@ -15,8 +15,8 @@
 
 <div id="top" align="center">
 
-[![Paper](https://img.shields.io/static/v1?label=Paper&message=arXiv&color=red&logo=arxiv)](https://arxiv.org/abs/2604.14141)
-[![HuggingFace](https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace&color=orange)](https://huggingface.co/robbyant/lingbot-map)
+[![Paper](https://img.shields.io/static/v1?label=Paper&message=arXiv&color=red&logo=arxiv)](https://arxiv.org/)
+[![HuggingFace](https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace&color=orange)](https://huggingface.co/)
 
 </div>
 
@@ -32,3 +32,22 @@
 - **Real-World Resilience**: Demonstrates high robustness against sensor noise modeled after real-world robot error profiles.
 
 -----
+
+## ⚙️ Requirements
+
+**1. Create conda environment**
+
+```bash
+conda create -n gavln python=3.9
+conda activate gavln
+```
+
+**2. Install Habitat**
+```bash
+conda install habitat-sim==0.2.4 withbullet headless -c conda-forge -c aihabitat
+git clone --branch v0.2.4 https://github.com/facebookresearch/habitat-lab.git
+cd habitat-lab
+pip install -e habitat-lab  # install habitat_lab
+pip install -e habitat-baselines # install habitat_baselines
+```
+    
