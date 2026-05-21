@@ -21,7 +21,7 @@
 </div>
 
 <div style="text-align: center;">
-    <img src="assets/gavln_framework.pdf" width=100% >
+    <img src="assets/gavln_framework.PNG" width=100% >
 </div>
 
 -----
@@ -30,3 +30,5 @@
 - **Efficient BEV Representation**: Compresses dense multi-view visual observations into a unified BEV space for efficient representation.
 - **Robust Spatial Reasoning**: Integrates a 3D foundation model to dramatically enhance geometry-aware perception.
 - **Real-World Resilience**: Demonstrates high robustness against sensor noise modeled after real-world robot error profiles.
+
+-----
