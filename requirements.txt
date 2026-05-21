@@ -8,6 +8,7 @@ antlr4-python3-runtime==4.9.3
 anyio==4.9.0
 async-timeout==5.0.1
 attrs==25.3.0
+av==14.4.0
 backports-datetime-fromisoformat==2.0.3
 bitsandbytes==0.41.0
 boto3==1.34.69
