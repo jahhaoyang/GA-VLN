@@ -10,13 +10,17 @@
     Yinghao Xu†</a>&emsp;
     Shuqiang Jiang†</a>&emsp;
     <br>
-    ICT,CAS&emsp;UCAS&emsp;Robbyant&emsp;NUS&emsp;HKUST&emsp;
   </p>
 </p>
 
 <div id="top" align="center">
 
-[![arxiv](https://img.shields.io/badge/arXiv_2507.05240-red?logo=arxiv)](http://arxiv.org/)
-[![hf](https://img.shields.io/badge/Hugging_Face-FF9D00?logo=huggingface&logoColor=white)](https://huggingface.co/)
+[![Paper](https://img.shields.io/static/v1?label=Paper&message=arXiv&color=red&logo=arxiv)](https://arxiv.org/abs/2604.14141)
+[![HuggingFace](https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=HuggingFace&color=orange)](https://huggingface.co/robbyant/lingbot-map)
 
 </div>
+
+## 🌟 Official PyTorch implementation of **GA-VLN**, a geometry-aware BEV representation framework designed for efficient and robust Vision-Language Navigation (VLN).
+- **Efficient BEV Representation**: Compresses dense multi-view visual observations into a unified Geometry-Aware BEV space, significantly reducing TFLOPs.
+- **Robust Spatial Reasoning**: Integrates a 3D foundation model to dramatically enhance geometry-aware perception.
+- **Real-World Resilience**: Demonstrates high robustness against sensor noise modeled after real-world robot error profiles.
