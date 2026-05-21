@@ -20,9 +20,9 @@
 
 </div>
 
-<center>
-  <img src="assets/gavln_framework.PNG" width="90%">
-</center>
+<div align="center">
+  <img src="assets/gavln_framework.PNG" width="90%" style="display: block; margin: 0 auto;">
+</div>
 
 -----
 
