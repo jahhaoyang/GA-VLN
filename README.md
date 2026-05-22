@@ -28,8 +28,8 @@
 
 ## 🌟 Official implementation of **GA-VLN**, a geometry-aware BEV representation framework designed for Vision-Language Navigation (VLN).
 - **Efficient BEV Representation**: Compresses dense multi-view visual observations into a unified BEV space for efficient representation.
-- **Robust Spatial Reasoning**: Integrates a 3D foundation model to dramatically enhance geometry-aware perception.
-- **Real-World Resilience**: Demonstrates high robustness against sensor noise modeled after real-world robot error profiles.
+- **Robust Spatial Reasoning**: Integrates 3D foundation model to enhance geometry-aware perception.
+- **Real-World Resilience**: Demonstrates high robustness against sensor noise modeled after real-world error profiles.
 
 -----
 
