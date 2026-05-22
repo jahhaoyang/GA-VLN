@@ -67,6 +67,7 @@ GA-VLN/
 │   └── VGGT-1B/
 ├── checkpoints/
 │   └── gavln_official/
+├── ...
 ```
 
 -----
