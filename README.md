@@ -80,6 +80,19 @@ bash scripts/gavln_eval.sh
 
 -----
 
+## 📖 Citation
+
+```bibtex
+@article{yang2026ga,
+  title={GA-VLN: Geometry-Aware BEV Representation for Efficient Vision-Language Navigation},
+  author={Yang, Jiahao and Wang, Zihan and Li, Xiangyang and Zhu, Xing and Shen, Yujun and Xu, Yinghao and Jiang, Shuqiang},
+  journal={arXiv preprint arXiv:2605.22036},
+  year={2026}
+}
+```
+
+-----
+
 ## ✨ Acknowledgments
 
 Our code is based on [StreamVLN](https://github.com/InternRobotics/StreamVLN/) and [VGGT](https://github.com/facebookresearch/vggt). Thanks for their great works!
